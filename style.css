@@ -13,6 +13,9 @@ h1 .btn {
   border-radius: 0;
   padding: 10px 20px;
 }
+h1 .py {
+  padding: 100px 0;
+}
 
 a {
   transition: 0.3s ease-in-out;
@@ -95,4 +98,29 @@ footer ul li a {
 }
 footer ul li a:hover {
   color: #FF6464;
+}
+
+.recent-posts {
+  padding: 100px 0;
+  background: #EDF7FA;
+}
+.recent-posts a {
+  text-decoration: none;
+  color: #008ACC;
+}
+.recent-posts a:hover {
+  color: #FF6464;
+}
+
+.wrapper {
+  background: white;
+  padding: 25px;
+}
+.wrapper h3 {
+  font-weight: 700;
+}
+.wrapper span {
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 0;
 }/*# sourceMappingURL=style.css.map */
