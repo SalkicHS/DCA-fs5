@@ -1,0 +1,31 @@
+body {
+    color: $primary;
+    font-family: $fontFamily;
+}
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+.btn {
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+}
+a {
+    transition: $transition;
+}
+.navbar {
+    .navbar-nav {
+        padding-right: 50px;
+        .nav-link {
+            font-size: 20px;
+            font-weight: 500px;
+            line-height: 29.38px;
+            color: $primary;
+            &:hover {
+                color: $accents;
+            }
+        }
+    }
+}

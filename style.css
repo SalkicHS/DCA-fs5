@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+body {
+  color: #21243D;
+  font-family: "Heebo", sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+h1 .btn {
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+a {
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav {
+  padding-right: 50px;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 29.38px;
+  color: #21243D;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #FF6464;
+}
+
+.main-header {
+  padding: 180px 0 90px 0;
+}
+.main-header .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+}
+.main-header .btn-danger {
+  background: #FF6464;
+}
+.main-header .btn-danger:hover {
+  color: #21243D;
+}
+.main-header p {
+  padding: 30px 0;
+}
+.main-header img {
+  border: 4px solid #21243D;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  max-width: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+footer ul li a {
+  font-size: 30px;
+  margin: 0 15px;
+  color: #21243D;
+}
+footer ul li a:hover {
+  color: #FF6464;
+}/*# sourceMappingURL=style.css.map */
